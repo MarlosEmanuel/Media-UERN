@@ -4,25 +4,22 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgb(1, 7, 45);
+    background-color: rgb(0, 0, 0);
 }
 
 
 /* Estilização da barra de navegação */
 .topo{
-    background-color: rgb(164, 54, 21);
+    background-color: rgb(0, 0, 0);
     display: flex;
-    justify-content: space-around;
-    min-height: 55px;
+    justify-content: center;
     align-items: center;
-    color: white;
-    font-weight: bold;
-    font-size: 12pt;
+    height: 100px;
 } 
 
 .topo-logo img{
-    height: 32px;
-    width: 32px;
+    height: 250px;
+    width: 250px;
 }
 
 .topo-contatos{
@@ -34,7 +31,7 @@ body{
 /* Estilização da Main */
 
 .main{
-    background-color: rgb(1, 1, 90);
+    background-color: rgb(53, 53, 53);
     width: 350px;
     height: fit-content;
     min-height: 400px;
@@ -125,6 +122,37 @@ body{
     color: white;
 }
 
-.about-devs{
+.about-devs {
+  background-color: #f0f0f0; /* Cor de fundo */
+  padding: 20px; /* Espaçamento interno */
+  border-radius: 8px; /* Bordas arredondadas */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+  max-width: 400px; /* Largura máxima */
+  margin: 20px auto; /* Centraliza e adiciona margem vertical */
+}
 
+.about-devs h3 {
+  color: #333; /* Cor do texto do título */
+  margin-bottom: 15px; /* Espaçamento abaixo do título */
+}
+
+.about-devs ul {
+  list-style-type: none; /* Remove os marcadores da lista */
+  padding: 0; /* Remove o padding padrão */
+}
+
+.about-devs ul li {
+  background-color: #000000; /* Cor de fundo para cada item */
+  padding: 10px; /* Espaçamento interno para cada item */
+  margin-bottom: 10px; /* Espaçamento entre os itens */
+  border-radius: 5px; /* Bordas arredondadas para cada item */
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); /* Sombra leve para cada item */
+}
+
+.about-devs ul li:last-child {
+  margin-bottom: 0; /* Remove a margem do último item */
+}
+
+.about-devs ul li strong {
+  color: #007bff; /* Cor para texto em negrito */
 }
