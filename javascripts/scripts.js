@@ -1,6 +1,11 @@
 var opc = 2;
 window.document.getElementsByClassName("main-resposta")[0].style.display = 'none';
 
+function changeButtonText(element) {
+  var buttonText = element.textContent; // Pega o texto do elemento clicado
+  document.getElementById('dropdownMenuButton').textContent = buttonText; // Atualiza o texto do botão
+}
+
 function nota_minima(){
     opc = 1;
     const notas = window.document.getElementsByClassName("nota");

@@ -50,8 +50,8 @@ body{
 
 .main input{
     border-style: none;
-    height: 20px;
     border-radius: 5px;
+    -moz-appearance: textfield;
 }
 
 .main label{
@@ -82,7 +82,6 @@ body{
 }
 
 .main-notas{
-    margin-top: 15px;
     display: flex;
     flex-direction: column;
     gap: 20px;
